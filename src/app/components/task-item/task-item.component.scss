@@ -6,6 +6,7 @@ article {
   padding: 1rem;
   border-radius: var(--border-radius);
   border: 1px solid var(--light);
+  cursor: pointer;
 
   div {
     display: flex;
@@ -14,7 +15,17 @@ article {
 
     .ng-fa-icon {
       color: var(--gray);
+      cursor: pointer;
+
+      &:active,
+      &:hover {
+        color: var(--accent-color);
+      }
     }
+  }
+
+  &.reminder {
+    border-left: 5px solid var(--accent-color);
   }
 
   h3 {
