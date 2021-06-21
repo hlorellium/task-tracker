@@ -1,0 +1,47 @@
+form {
+  font-size: 0.9rem;
+  margin: 1.5rem 0 3rem 0;
+  div {
+    margin: 1rem 0;
+
+    label {
+      display: block;
+    }
+
+    input {
+      padding: 0.2em 0.4em;
+      font-size: 1.2em;
+      width: 100%;
+      border-radius: var(--border-radius);
+      height: 2.5em;
+      border: 1px solid var(--gray);
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &.check {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      input {
+        flex-grow: 1;
+        width: auto;
+        height: 1em;
+      }
+    }
+  }
+
+  .btn {
+    width: 100%;
+  }
+  p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em;
+    color: var(--danger);
+    font-weight: 500;
+  }
+}
