@@ -1,0 +1,28 @@
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--second-bg);
+  margin: 0.8rem 0;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--light);
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .ng-fa-icon {
+      color: var(--gray);
+    }
+  }
+
+  h3 {
+    font-size: 0.9em;
+  }
+
+  p {
+    font-size: 0.78em;
+    color: var(--gray);
+  }
+}
