@@ -29,7 +29,7 @@ export class AddTaskComponent implements OnInit {
   onSubmit() {
     if (!this.text) {
       this.error = 'Please add task text';
-    }
+    } else {
 
     const newTask = {
       text: this.text,
@@ -43,5 +43,8 @@ export class AddTaskComponent implements OnInit {
     this.text = '';
     this.day = '';
     this.reminder = false;
+
+    }
+
   }
 }
