@@ -1,0 +1,12 @@
+section {
+    margin: 2rem auto;
+
+    a {
+        text-decoration: none;
+        color: var(--link);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
